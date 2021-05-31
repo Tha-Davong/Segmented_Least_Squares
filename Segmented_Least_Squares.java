@@ -65,6 +65,7 @@ public class Segmented_Least_Squares {	// used a JFREECHART for Visual Part
 	}
 	
 	private static void computeOPT(){
+		//ninja
 		computeEij();
 		lookupOPT[0] = 0;
 		for(int j = 1; j <= N; j++){ double min = BOUND;
